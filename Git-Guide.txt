@@ -1,0 +1,24 @@
+Q1.Which Git command will allow for a collaborative review of a set of proposed changes before they are integrated into the codebase?
+Q2.When someone makes changes to your project that you want to keep and includes them in your repository, which command should 
+you use?
+Q3. 
+The 'git  
+clone
+' command in git version control system is used to create a copy of a 
+remote
+ repository on the local machine. Git clone makes an 'exact duplicate' with all the versions of all files from the primary repository. To clone a remote repository, you need to know its URL, which can typically be found on the repository's webpage.
+q4. n Git, a 
+fork
+ is a personal copy of another repository that allows the user to experiment and make changes without impacting the original project.
+
+The ability to collaborate and contribute to projects is an essential skill for any software developer. Collaboration often involves making changes on ones' local repository and submitting those modifications to the main, or 'origin', repo via a Pull Request. These are the steps involved:
+Create a new local branch by using the command: git checkout -b 
+[branch_name]
+.
+Stage and commit changes by using git commit -m "
+[message]
+"
+To push your local branch to the remote, you use git push 
+origin
+ [branch_name].
+Finally, submit a pull request via GitHub's interface.
